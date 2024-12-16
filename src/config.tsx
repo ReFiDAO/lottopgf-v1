@@ -9,7 +9,7 @@ export const METADATA = {
   description: "Welcome to the ReFi DAO LottoPGF!",
   url: APP_URL,
   icon: `${APP_URL}/images/icon.svg`,
-  logo: `https://blog.refidao.com/content/images/size/w256h256/2022/12/6319c4c1d0b248c635dc4002_ReFi-DAO.png`,
+  logo: `/images/ReFi DAO_Logo_Secondary.png`,
   bannerImage: "/images/banner.png",
   longDescription: (
     <p>
