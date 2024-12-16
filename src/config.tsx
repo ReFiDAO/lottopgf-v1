@@ -4,12 +4,12 @@ import { base, scroll } from "viem/chains";
 
 // Project metadata
 export const METADATA = {
-  name: "LottoPGF Test Lottery",
+  name: "ReFi DAO LottoPGF",
   title: null,
-  description: "This is a Test!",
+  description: "Welcome to the ReFi DAO LottoPGF!",
   url: APP_URL,
   icon: `${APP_URL}/images/icon.svg`,
-  logo: `/images/logo.svg`,
+  logo: `https://blog.refidao.com/content/images/size/w256h256/2022/12/6319c4c1d0b248c635dc4002_ReFi-DAO.png`,
   bannerImage: "/images/banner.png",
   longDescription: (
     <p>
@@ -21,7 +21,7 @@ export const METADATA = {
 
 // The metadata of the collective fund (default receiver of funds)
 export const COLLECTIVE_FUND_METADATA = {
-  name: "Collective fund",
+  name: "ReFi DAO Global",
   description: "Managed by the lottery organizer",
 };
 
@@ -29,11 +29,11 @@ export const COLLECTIVE_FUND_METADATA = {
 export const CHAIN = base;
 
 // The ticker of the prize token. Will be used when rendering prizes.
-export const PRIZE_TOKEN_TICKER = "ETH";
+export const PRIZE_TOKEN_TICKER = "USDGLO";
 export const PRIZE_TOKEN_DECIMALS = 18;
 // If true the user will pay with native tokens via the ETH adapter,
 // otherwise they will pay with the ERC20 token directly
-export const PRIZE_TOKEN_IS_NATIVE = true;
+export const PRIZE_TOKEN_IS_NATIVE = false;
 
 // The contract address of the lottery
 export const CONTRACT_ADDRESS: Address =
