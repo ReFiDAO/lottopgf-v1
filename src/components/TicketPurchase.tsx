@@ -31,7 +31,7 @@ import { GameState, useCurrentGame } from "@/hooks/useCurrentGame";
 import { useGameConfig } from "@/hooks/useGameConfig";
 import { useGameData } from "@/hooks/useGameData";
 import { useTickets } from "@/hooks/useTickets";
-import { makeBridgeUrl } from "@/lib/bridge";
+import { BRIDGE_NAME, makeBridgeUrl } from "@/lib/bridge";
 import { extractErrorMessages, handleTransactionError } from "@/lib/error";
 import { getRandomPicks } from "@/lib/random";
 import { cn } from "@/lib/utils";
@@ -67,7 +67,6 @@ import {
   getAddress,
   isAddress,
   isAddressEqual,
-  parseEther,
   zeroAddress,
   type Address,
   type Hex,
@@ -304,7 +303,7 @@ export function TicketPurchase({ onPurchase }: { onPurchase?: () => void }) {
                           decimals={PRIZE_TOKEN_DECIMALS}
                         />
                       </span>{" "}
-                      ETH raised
+                      {PRIZE_TOKEN_TICKER} raised
                     </p>
                   </div>
 
@@ -429,15 +428,18 @@ export function TicketPurchase({ onPurchase }: { onPurchase?: () => void }) {
               <AlertTitle>Need more {PRIZE_TOKEN_TICKER}?</AlertTitle>
               <AlertDescription className="space-y-2">
                 <p>
-                  You can bridge funds from other chains to {CHAIN.name}. We
-                  recommend relay.
+                  You can bridge & swap funds from other chains to {CHAIN.name}.
+                  We recommend {BRIDGE_NAME}.
                 </p>
                 <Button asChild>
                   <Link
                     target="_blank"
-                    href={makeBridgeUrl(parseEther("0.01"))}
+                    href={makeBridgeUrl({
+                      amount: totalPrice,
+                      token: prizeToken,
+                    })}
                   >
-                    Bridge to {CHAIN.name} using relay
+                    Bridge using {BRIDGE_NAME}
                   </Link>
                 </Button>
               </AlertDescription>
