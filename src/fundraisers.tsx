@@ -15,13 +15,11 @@ interface Fundraiser {
 // If you don't want to show any fundraisers, set this to an empty array.
 
 export const FUNDRAISERS: Fundraiser[] = [
-   /*
   {
-    title: "LottoPGF Support Fund",
-    description: "Support development of the LottoPGF protocol!",
-    targetAmount: parseUnits("0.42069", PRIZE_TOKEN_DECIMALS),
-    address: "0x8220B74b87D77b11f6950dD2dFCe77D5D8971829",
+    title: "ReFi Podcast",
+    description: "Support Maya & Tereza's work on the incredible Season 4 🎙️",
+    /* targetAmount: parseUnits("0.42069", PRIZE_TOKEN_DECIMALS), */
+    address: "0x7aa8Da47f4f67C4703eB2f944273Ad3d91e51a9F",
   
   },
-*/
 ];
