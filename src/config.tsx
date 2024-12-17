@@ -37,7 +37,7 @@ export const PRIZE_TOKEN_IS_NATIVE = false;
 
 // The contract address of the lottery
 export const CONTRACT_ADDRESS: Address =
-  "0x15bAe68252DFd6D37Cf96CDE4E8B258E2Db8F470";
+  "0x4DBb93e8a435BBD1Ddb466b1EE6fa2DfC83CcCE3"; 
 
 // The address of the ETH adapter contract
 export const LOOTERY_ETH_ADAPTER_ADDRESS: Address =
