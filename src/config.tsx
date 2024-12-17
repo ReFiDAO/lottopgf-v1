@@ -10,7 +10,7 @@ export const METADATA = {
   url: APP_URL,
   icon: `${APP_URL}/images/icon.svg`,
   logo: `/images/ReFi DAO_Logo_Secondary.png`,
-  bannerImage: "/images/banner.png",
+  bannerImage: "/images/ReFi DAO Holiday LottoPGF.png",
   longDescription: (
     <p>
       This is a test lottery to show how LottoPGF can be used to fund public
