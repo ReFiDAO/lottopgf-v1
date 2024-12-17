@@ -4,13 +4,13 @@ import { base, scroll } from "viem/chains";
 
 // Project metadata
 export const METADATA = {
-  name: "ReFi DAO LottoPGF",
+  name: "ReFi DAO Holiday Lotto 🐸 ☃️",
   title: null,
-  description: "Welcome to the ReFi DAO LottoPGF!",
+  description: "Welcome to the ReFi DAO LottoPGF! Join the fun, fund the future.",
   url: APP_URL,
   icon: `${APP_URL}/images/icon.svg`,
   logo: `/images/ReFi DAO_Logo_Secondary.png`,
-  /*bannerImage: "/images/ReFi DAO Holiday LottoPGF.png", */
+  bannerImage: "", 
   longDescription: (
     <p>
       This holiday season, we’re launching The ReFi DAO Holiday Lotto from Dec 18th - 24th!
