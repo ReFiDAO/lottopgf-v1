@@ -19,10 +19,9 @@ export const METADATA = {
       If no lucky numbers are drawn on Christmas Eve, the winnings split evenly among ticket holders.
       
       🎟 Tickets are $10 USDGLO via Base Network - bridge or swap tokens at https://jumper.exchange.
-      Each ticket fuels ReFi DAO & the ReFi Podcast.
+      Each ticket sale also fuels ReFi DAO Global or ReFi Podcast.
       
-      Curious about how it works? 
-      Watch this short video: https://tinyurl.com/WhatIsLottoPGF.
+      Get started below or watch this short video to find out more: https://tinyurl.com/WhatIsLottoPGF.
       
       This is just the beginning—more exciting experiments coming in 2025! 🌱🎅 <b>Join the fun, fund the future.</b>
     </p>
