@@ -14,15 +14,15 @@ export const METADATA = {
   longDescription: (
     <p>
       This holiday season, we’re launching The ReFi DAO Holiday Lotto from <b>Dec 18th - 24th</b>!
-      
+      <br></br>
       🌟 Kickstarted with $200 from Glo Dollar and ReFi DAO Global, the prize pool grows further with every ticket sold! 
       If no lucky numbers are drawn on Christmas Eve, the winnings split evenly among ticket holders.
-      
+      <br></br>
       🎟 Tickets are $10 USDGLO via Base Network - bridge or swap tokens at https://jumper.exchange.
       Each ticket sale also fuels ReFi DAO Global or ReFi Podcast.
-      
+      <br></br>
       Get started below or watch this short video to find out more: https://tinyurl.com/WhatIsLottoPGF.
-      
+      <br></br>
       This is just the beginning—more exciting experiments coming in 2025! 🌱🎅 <b>Join the fun, fund the future.</b>
     </p>
   ),
