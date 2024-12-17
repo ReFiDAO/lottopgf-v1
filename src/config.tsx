@@ -23,7 +23,7 @@ export const METADATA = {
       <br></br><br></br>
       👇 Get started below or watch this short video to find out more: https://tinyurl.com/WhatIsLottoPGF.
       <br></br><br></br>
-      <b></b>Join the fun, fund the future.</b> This is just the beginning—more exciting experiments coming in 2025! 
+      <b>Join the fun, fund the future.</b> This is just the beginning—more exciting experiments coming in 2025! 
     </p>
   ),
 };
